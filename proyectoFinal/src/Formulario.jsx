@@ -11,11 +11,10 @@ export default function Formulario() {
         dueño
       }
       setPacientes([...pacientes,informacion])
+      
       setMascota("")
       setDueño("")
     }
-
-
 
     return (
         <div>
